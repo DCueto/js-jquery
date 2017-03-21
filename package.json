@@ -1,0 +1,44 @@
+{
+  "name": "tvify",
+  "version": "1.0.0",
+  "description": "JS & JQuery course",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DCueto/js-jquery.git"
+  },
+  "author": "Daniel Cueto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DCueto/js-jquery/issues"
+  },
+  "homepage": "https://github.com/DCueto/js-jquery#readme",
+  "devDependencies": {
+    "bower": "^1.8.0",
+    "browser-sync": "^2.18.8",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-jshint": "^2.0.4",
+    "gulp-livereload": "^3.8.1",
+    "gulp-notify": "^3.0.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sourcemaps": "^2.4.1",
+    "gulp-strip-debug": "^1.1.0",
+    "gulp-stylus": "^2.6.0",
+    "gulp-uglify": "^2.1.1",
+    "jeet": "^7.1.0",
+    "jshint": "^2.9.4",
+    "jshint-stylish": "^2.2.1",
+    "nib": "^1.1.2",
+    "rupture": "^0.6.2",
+    "yargs": "^7.0.2"
+  },
+  "dependencies": {
+    "stylus": "^0.54.5",
+    "stylus-type-utils": "0.0.3"
+  }
+}
