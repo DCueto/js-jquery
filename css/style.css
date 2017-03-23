@@ -19,11 +19,34 @@ body {
   margin: 0;
   color: #fff;
 }
+#app-header h1.danger {
+  color: #f00;
+}
 #app-body {
   padding-top: 15vh;
   width: 80%;
   margin: 0 auto;
   min-height: 75vh;
+}
+.tv-show {
+  width: 100%;
+  overflow: hidden;
+  padding: 16px;
+  background-color: #fff;
+  margin-bottom: 16px;
+}
+.tv-show:hover {
+  background-color: #ecf0f1;
+}
+.tv-show img {
+  max-height: 60px;
+  max-width: 100px;
+}
+.tv-show .info {
+  padding-left: 20px;
+}
+.tv-show .left {
+  float: left;
 }
 #app-footer {
   width: 100%;

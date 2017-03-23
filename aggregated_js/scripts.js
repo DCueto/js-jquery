@@ -1,12 +1,5 @@
 $(function() {
-	var body = $('h1.title');
-
-	var subHeader = $('h1 + h2');
-
-	var header = $('header');
-	var title = $('h1', header[0]);
-	console.log(title);
-	console.log(header);
+	$('h1').css({
+		'font-size': '40px',
+	});
 });
-
-var test = 'test';

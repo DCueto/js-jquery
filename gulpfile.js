@@ -53,7 +53,8 @@ gulp.task('scripts', function(){
     .pipe(rename('scripts.min.js'))
     .pipe(stripDebug())
     .pipe(uglify())
-    .pipe(gulp.dest(paths.jsDest));
+    .pipe(gulp.dest(paths.jsDest))
+    .pipe(browserSync.stream());
 });
 
 
